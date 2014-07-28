@@ -12,7 +12,5 @@ import UIKit
 class DashboardView: UIView {
     init(frame:CGRect) {
         super.init(frame: frame)
-        
-        backgroundColor = UIColor.orangeColor()
     }
 }

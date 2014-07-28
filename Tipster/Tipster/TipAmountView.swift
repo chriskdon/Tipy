@@ -13,6 +13,6 @@ class TipAmountView: UIView {
     init(frame:CGRect) {
         super.init(frame: frame)
         
-        backgroundColor = UIColor.blueColor()
+        backgroundColor = UIColor(red: 0.000, green: 0.667, blue: 0.271, alpha: 1.000)
     }
 }

@@ -12,7 +12,5 @@ import UIKit
 class DigitView: UIView {
     init(frame:CGRect) {
         super.init(frame: frame)
-        
-        backgroundColor = UIColor.redColor()
     }
 }
