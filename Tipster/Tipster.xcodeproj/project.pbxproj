@@ -18,6 +18,7 @@
 		88B526451985C5C500F5B4F8 /* DigitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B526441985C5C500F5B4F8 /* DigitViewController.swift */; };
 		88B526481985CDA900F5B4F8 /* TipAmountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B526471985CDA900F5B4F8 /* TipAmountViewController.swift */; };
 		88B5264B1985D00200F5B4F8 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B5264A1985D00200F5B4F8 /* DashboardViewController.swift */; };
+		88B5264E1985D22B00F5B4F8 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B5264D1985D22B00F5B4F8 /* CircleButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		88B526441985C5C500F5B4F8 /* DigitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DigitViewController.swift; sourceTree = "<group>"; };
 		88B526471985CDA900F5B4F8 /* TipAmountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipAmountViewController.swift; sourceTree = "<group>"; };
 		88B5264A1985D00200F5B4F8 /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		88B5264D1985D22B00F5B4F8 /* CircleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 		88B526151985718200F5B4F8 /* Tipster */ = {
 			isa = PBXGroup;
 			children = (
+				88B5264C1985D20F00F5B4F8 /* Controls */,
 				88B526421985C59F00F5B4F8 /* Sections */,
 				88B5263E19858B4100F5B4F8 /* Layers */,
 				88B526181985718200F5B4F8 /* AppDelegate.swift */,
@@ -165,6 +168,14 @@
 				88B5264A1985D00200F5B4F8 /* DashboardViewController.swift */,
 			);
 			name = Dashboard;
+			sourceTree = "<group>";
+		};
+		88B5264C1985D20F00F5B4F8 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				88B5264D1985D22B00F5B4F8 /* CircleButton.swift */,
+			);
+			name = Controls;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +281,7 @@
 				88B52637198571F700F5B4F8 /* DigitView.swift in Sources */,
 				88B5264019858B6200F5B4F8 /* BackgroundLayer.swift in Sources */,
 				88B5263B1985721C00F5B4F8 /* DashboardView.swift in Sources */,
+				88B5264E1985D22B00F5B4F8 /* CircleButton.swift in Sources */,
 				88B526191985718200F5B4F8 /* AppDelegate.swift in Sources */,
 				88B526391985720A00F5B4F8 /* TipAmountView.swift in Sources */,
 				88B5263D1985884700F5B4F8 /* MainViewController.swift in Sources */,
